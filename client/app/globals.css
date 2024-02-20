@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  @apply bg-light_bg;
+}
+
+p {
+  @apply md:text-[20px] text-[16px] text-[#484848] font-normal;
+}
+
+.sec-head {
+  @apply md:text-[72px] text-[60px] text-black font-semibold leading-[60px] md:leading-none;
+}
+
+.inner-text-shadow {
+  @apply bg-primary text-transparent bg-clip-text;
+  text-shadow: 4px 0px 20px #00000040;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+}
+
+.primary-btn {
+  @apply w-fit md:p-4 bg-primary rounded-lg text-white capitalize font-semibold md:text-[21px] text-[16px] tracking-wide p-3;
+}
+
+Link {
+  cursor: pointer;
+}
+
+/* Cup Animation */
+
+.cup {
+  position: relative;
+  width: 220px;
+  height: 180px;
+  border: 8px solid #ffefdb;
+  box-shadow: 0 0 0 12px #352a22;
+  border-radius: 10px 10px 60px 75px;
+  background: url("/images/coffee.png");
+  background-repeat: repeat-x;
+  background-position: 0 130px;
+  animation: filling 4s infinite;
+}
+
+@keyframes filling {
+  0% {
+    background-position: 0 130px;
+  }
+
+  100% {
+    background-position: 600px -70px;
+  }
+}
+
+.cup .cup-handle {
+  position: absolute;
+  top: 10px;
+  right: -74px;
+  width: 65px;
+  height: 120px;
+  border: 12px solid #352a22;
+  border-radius: 20px 10px 50px 20px;
+}
+
+.cup .steam {
+  position: absolute;
+  border-radius: 10px 2px;
+  width: 8px;
+  animation: steaming 2s infinite;
+}
+
+@keyframes steaming {
+  0%,
+  100% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+    filter: blur(0.8px);
+    transform: translateY(-10px);
+  }
+}
+
+.cup .steam:nth-child(1) {
+  top: -70px;
+  left: 65px;
+  height: 30px;
+  background: #8e5a3423;
+  animation-delay: 0.2s;
+}
+
+.cup .steam:nth-child(2) {
+  top: -120px;
+  left: 95px;
+  height: 50px;
+  background: #8e5a3454;
+  animation-delay: 0.6s;
+}
+
+.cup .steam:nth-child(3) {
+  top: -90px;
+  left: 125px;
+  height: 40px;
+  background: #8e5a3433;
+  animation-delay: 1s;
+}
+
+@media only screen and (max-width: 900px) {
+  .cup {
+    width: 140px;
+    height: 140px;
+    border: 6px solid #ffefdb;
+    box-shadow: 0 0 0 8px #352a22;
+    border-radius: 8px 8px 40px 55px;
+  }
+  .cup .cup-handle {
+    width: 45px;
+    height: 75px;
+    border: 8px solid #352a22;
+    right: -54px;
+    border-radius: 20px 10px 30px 20px;
+  }
+}
