@@ -20,7 +20,7 @@ export default function Home() {
           src="/images/bg_image.png"
           width={300}
           height={400}
-          className="absolute -right-[150px] w-[520px] md:top-[48vw] top-[150vh] opacity-20 -rotate-[10deg]"
+          className="absolute -right-[150px] w-[520px] md:top-[48vw] top-[150vh] opacity-20 -rotate-[10deg] md:block hidden"
         />
         <AboutSec />
         <OurNetwork />
@@ -28,7 +28,7 @@ export default function Home() {
           src="/images/bg_image.png"
           width={300}
           height={400}
-          className="absolute -left-[150px] w-[520px] md:top-[100vw] top-[330vh] opacity-20 rotate-[10deg] -scale-x-100"
+          className="absolute -left-[150px] w-[520px] md:top-[100vw] top-[330vh] opacity-20 rotate-[10deg] -scale-x-100 md:block hidden"
         />
         <OurProducts />
         <FranchiseCard />
@@ -37,7 +37,7 @@ export default function Home() {
         src="/images/bg_image_2.png"
         width={300}
         height={400}
-        className="absolute md:-right-[50px] -right-[100px] w-[620px] md:top-[226vw] top-[940vh] opacity-20"
+        className="absolute md:-right-[50px] -right-[100px] w-[620px] md:top-[226vw] top-[940vh] opacity-20 md:block hidden"
       />
       <BlogSec />
       <div className="h-fit mb-[50px] -mt-6">
