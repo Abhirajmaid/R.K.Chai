@@ -9,6 +9,7 @@ const Banner = ({ txt }) => {
           src="/images/banner.jpg"
           width={1500}
           height={1500}
+          alt="rk_banner"
           className="w-full md:h-[650px] h-[400px] object-cover"
         />
 

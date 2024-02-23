@@ -20,6 +20,7 @@ const OurNetwork = () => {
           src="/images/Line.png"
           width={50}
           height={100}
+          alt="line"
           className="h-[90px] w-[3px]"
         />
         <div className="flex flex-col justify-center items-center">
@@ -32,6 +33,7 @@ const OurNetwork = () => {
           src="/images/Line.png"
           width={50}
           height={100}
+          alt="line"
           className="h-[90px] w-[3px]"
         />
         <div className="flex flex-col justify-center items-center ">

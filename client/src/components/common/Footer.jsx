@@ -84,6 +84,7 @@ const Footer = () => {
             src="/images/chai_cup2.png"
             width={500}
             height={500}
+            alt="footer"
             className="absolute -bottom-2 right-0 w-[250px] z-[1]"
           />
         </div>

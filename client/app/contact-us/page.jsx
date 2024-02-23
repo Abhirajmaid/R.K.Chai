@@ -5,22 +5,23 @@ import React from "react";
 const page = () => {
   return (
     <>
-      <div className="relative w-full h-[110vh]">
+      <div className="relative w-full md:h-[110vh] h-[150vh]">
         <Image
           src="/images/contact_img.jpg"
           width={1000}
           height={1000}
+          alt="rkchai"
           className="w-full h-full object-cover blur-[6px] "
         />
-        <div className="w-full h-full absolute top-0 left-0 flex justify-center items-center bg-black/50 px-[6%]">
-          <div className="mt-14 w-[60%] h-[72vh] rounded-xl mx-auto flex items-center gap-6 bg-white overflow-hidden">
+        <div className="w-full h-full absolute top-0 left-0 flex justify-center items-center bg-black/50 md:px-[6%]">
+          <div className="mt-14 md:w-[60%] w-[90%] md:h-[72vh] h-fit rounded-xl mx-auto flex md:flex-row flex-col items-center gap-6 bg-white overflow-hidden">
             <Image
               src="/images/contact_img.jpg"
               width={500}
               height={500}
-              className="w-[40%] h-full object-cover"
+              className="md:w-[40%] w-full h-full object-cover"
             />
-            <form className="flex flex-col w-[60%] p-8 px-6 gap-6 mx-auto">
+            <form className="flex flex-col md:w-[60%] w-full p-8 px-6  gap-6 mx-auto">
               <h1 className="font-semibold text-[40px]">Contact Us</h1>
               <input
                 type="text"
@@ -47,7 +48,7 @@ const page = () => {
           </div>
         </div>
       </div>
-      <div className="h-fit mb-[50px] -mt-6">
+      <div className="h-fit -mt-6">
         <InfiniteMarquee txt="CHAI" />
       </div>
     </>

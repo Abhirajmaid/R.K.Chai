@@ -11,6 +11,7 @@ const ProductCard = ({ name, product_image, special }) => {
         src={product_image}
         width={1000}
         height={1000}
+        alt="rkchai"
         className="absolute w-[450px] h-auto top-[50px] group-hover:scale-[1.07] transition-a "
       />
       <h2 className="font-semibold text-[40px] text-center">{name}</h2>

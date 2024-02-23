@@ -18,6 +18,7 @@ const page = () => {
             src={blog.image}
             width={1000}
             height={1000}
+            alt="rkchai"
             className="md:w-[90%] w-full md:h-[600px] h-[300px] mx-auto object-cover rounded-2xl"
           />
           <h1 className="md:text-[60px] text-[40px] font-semibold md:my-10 my-6 md:w-[65%] leading-[50px] text-left mx-auto">

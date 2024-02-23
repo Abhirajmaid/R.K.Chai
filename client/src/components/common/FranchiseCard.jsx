@@ -17,6 +17,7 @@ const FranchiseCard = () => {
         src="/images/shop.png"
         width={1500}
         height={1500}
+        alt="shop"
         className=" absolute right-0 w-[700px] -top-10 md:block hidden"
       />
     </div>

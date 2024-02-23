@@ -12,6 +12,7 @@ const AboutSec = () => {
           src="/images/about_img.png"
           width={600}
           height={500}
+          alt="RK chaiwala"
           className="md:w-[85%] w-[90%] md:h-[500px] h-[300px] ml-5 shadow-[-17px_-17px_0px_0px_#DE8D2D] rounded-xl"
         />
       </div>

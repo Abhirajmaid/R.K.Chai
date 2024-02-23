@@ -11,6 +11,7 @@ const BlogCard = ({ image, title, id }) => {
         src={image}
         width={500}
         height={500}
+        alt="rakchai blogs"
         className="w-full h-full group-hover:scale-[1.05] transition-a"
       />
       <Link href={`/blogs/${id}`}>
