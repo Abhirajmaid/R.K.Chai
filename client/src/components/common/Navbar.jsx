@@ -13,10 +13,10 @@ const Navbar = () => {
       <div className="md:h-[100px] h-[80px] absolute top-0 left-0 w-full z-[99] px-[3%] md:px-[6%] flex justify-between items-center">
         <Link href="/">
           <Image
-            src="/images/LOGO.png"
+            src="/images/RK Logo.png"
             width={100}
             height={100}
-            className="w-14 md:w-[100px] "
+            className="w-14 md:w-[150px] "
             alt="RKChaiwala"
           />
         </Link>

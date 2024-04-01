@@ -6,13 +6,13 @@ import React from "react";
 
 const BlogCard = ({ image, title, id }) => {
   return (
-    <div className="group relative rounded-3xl md:w-[30%] w-full h-auto overflow-hidden cursor-pointer">
+    <div className="group relative rounded-3xl md:w-[30%] w-full h-[700px] overflow-hidden cursor-pointer">
       <Image
         src={image}
         width={500}
         height={500}
         alt="rakchai blogs"
-        className="w-full h-full group-hover:scale-[1.05] transition-a"
+        className="w-full h-full group-hover:scale-[1.05] transition-a object-cover"
       />
       <Link href={`/blogs/${id}`}>
         <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-black via-black/20 to-none">

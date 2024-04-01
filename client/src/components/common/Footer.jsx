@@ -17,16 +17,13 @@ const Footer = () => {
         <div className="flex md:flex-row flex-col gap-10 absolute top-0 left-0 h-full w-full md:px-[6%] px-[3%] md:py-[120px] py-[3%] bg-black/65">
           <div className="flex flex-col items-center md:items-start gap-6 md:w-[33%] w-full ">
             <Link href="/" className="cursor-pointer ">
-              {/* <Image
-              src="/images/LOGO.png"
-              width={100}
-              height={100}
-              className="w-9 md:w-[100px] "
-              alt="RKChaiwala"
-            />*/}
-              <h1 className="md:text-[75px] text-[60px] font-bold text-white">
-                LOGO
-              </h1>
+              <Image
+                src="/images/RK Logo + Word Mark.png"
+                width={600}
+                height={600}
+                className="w-9 md:w-[400px] "
+                alt="RKChaiwala"
+              />
             </Link>
             <p className="w-full !text-white text-justify md:text-left">
               Lorem ipsum dolor sit amet consectetur. Diam pharetra tellus sed
@@ -66,8 +63,8 @@ const Footer = () => {
                 height={60}
               />
               <p className="!text-white">
-                Office no. 101, First floor, Silver point building, Katraj -
-                Kondhwa Rd, near Vishwa gym, Katraj Pune - 411046
+                Katraj - Kondhwa Rd, Shri Swami Samantha Nagar, Gokul Nagar,
+                Katraj, Pune, Maharashtra 411046
               </p>
             </span>
             <span className="flex justify-start gap-3">
@@ -77,7 +74,7 @@ const Footer = () => {
                 width={35}
                 height={35}
               />
-              <p className="!text-white">+91 73853 xxxxx</p>
+              <p className="!text-white">+91 9853081212</p>
             </span>
           </div>
           <Image
