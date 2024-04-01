@@ -8,8 +8,8 @@ const BlogSec = () => {
     <div className="flex flex-col px-[6%] bg-hero_bg md:mt-[230px] mt-[130px] py-10">
       <h1 className="sec-head mb-6">Our Blogs</h1>
       <p className="-mt-[15px] mb-8 md:w-[30%]">
-        Lorem ipsum dolor sit amet consectetur. Diam pharetra tellus sed nulla
-        augue. Ornare
+        Exploring the World of Chai: Insights, Inspiration, and Recipes Await in
+        Our Blog
       </p>
       <div className="w-full gap-12 flex flex-wrap justify-between">
         {BlogsData.slice(0, 3).map((item, i) => {

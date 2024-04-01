@@ -15,7 +15,7 @@ const Hero = () => {
           Say Yes To Chai!
         </h2>
         <p className="md:!text-[24px]">
-          Experience the rich taste and tradition of authentic Indian chai
+          Experience the rich taste and tradition of authentic Indian chai!
         </p>
         <Link href="/our-products">
           <button className="primary-btn flex gap-2 items-center">

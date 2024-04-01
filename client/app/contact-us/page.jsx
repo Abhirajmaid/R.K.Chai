@@ -21,7 +21,10 @@ const page = () => {
               height={500}
               className="md:w-[40%] w-full h-full object-cover"
             />
-            <form className="flex flex-col md:w-[60%] w-full p-8 px-6  gap-6 mx-auto">
+            <form
+              className="flex flex-col md:w-[60%] w-full p-8 px-6  gap-6 mx-auto"
+              // onSubmit={handleSubmit}
+            >
               <h1 className="font-semibold text-[40px]">Contact Us</h1>
               <input
                 type="text"

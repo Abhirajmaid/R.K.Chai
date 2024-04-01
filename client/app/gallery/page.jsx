@@ -4,55 +4,63 @@ import React, { Suspense } from "react";
 const images = [
   {
     text: "Lorem ipsum dolor sit amet consectetur",
-    url: "https://source.unsplash.com/mPFSPqZOO7s",
+    url: "https://source.unsplash.com/CzShRoU5--o",
   },
   {
     text: "Lorem ipsum dolor sit amet consectetur",
-    url: "https://source.unsplash.com/uyX3qAQhZVA",
+    url: "https://source.unsplash.com/dXGl11H1Kbg",
   },
   {
     text: "Lorem ipsum dolor sit amet consectetur",
-    url: "https://source.unsplash.com/LV-NvIcA-Gg",
+    url: "https://source.unsplash.com/TLSGg4ikMdw",
   },
   {
     text: "Lorem ipsum dolor sit amet consectetur",
-    url: "https://source.unsplash.com/NTGg2rtWDwg",
+    url: "https://source.unsplash.com/jHMJrp33sUg",
   },
   {
     text: "Lorem ipsum dolor sit amet consectetur",
-    url: "https://source.unsplash.com/hqnQWmIt3cY",
+    url: "https://source.unsplash.com/xdD-x2Y2SPI",
   },
   {
     text: "Lorem ipsum dolor sit amet consectetur",
-    url: "https://source.unsplash.com/Vc2dD4l57og",
+    url: "https://source.unsplash.com/EEzYovNQYss",
   },
   {
     text: "Lorem ipsum dolor sit amet consectetur",
-    url: "https://source.unsplash.com/xoTt2fjs7d0",
+    url: "https://source.unsplash.com/4e0PvfHClnI",
   },
   {
     text: "Lorem ipsum dolor sit amet consectetur",
-    url: "https://source.unsplash.com/hFKZ5-OT9Ys",
+    url: "https://source.unsplash.com/Tp1yIvG7aBw",
   },
   {
     text: "Lorem ipsum dolor sit amet consectetur",
-    url: "https://source.unsplash.com/uPEnxrdSKIw",
+    url: "https://source.unsplash.com/0l3mh0iy_dc",
   },
   {
     text: "Lorem ipsum dolor sit amet consectetur",
-    url: "https://source.unsplash.com/uPEnxrdSKIw",
+    url: "https://source.unsplash.com/_w_9J1qJD9E",
   },
   {
     text: "Lorem ipsum dolor sit amet consectetur",
-    url: "https://source.unsplash.com/8KtqjrskUg8",
+    url: "https://source.unsplash.com/zI27XpN1GdA",
   },
   {
     text: "Lorem ipsum dolor sit amet consectetur",
-    url: "https://source.unsplash.com/0qnRfgnZIsI",
+    url: "https://source.unsplash.com/ynnYEs3NyaY",
   },
   {
     text: "Lorem ipsum dolor sit amet consectetur",
-    url: "https://source.unsplash.com/qAaGXj-AOv4",
+    url: "https://source.unsplash.com/_5X6RIlUFbM",
+  },
+  {
+    text: "Lorem ipsum dolor sit amet consectetur",
+    url: "https://source.unsplash.com/hxqWJ8VEFyM",
+  },
+  {
+    text: "Lorem ipsum dolor sit amet consectetur",
+    url: "https://source.unsplash.com/2P0EFD18NYA",
   },
 ];
 
@@ -72,8 +80,8 @@ const page = () => {
       <div className="md:p-[6%] p-[3%] md:mt-[60px] mt-[120px]">
         <h1 className="sec-head mb-6 text-center">Gallery</h1>
         <p className="-mt-[15px] mb-8 md:w-[30%] text-center m-auto">
-          Lorem ipsum dolor sit amet consectetur. Diam pharetra tellus sed nulla
-          augue. Ornare
+          Indulge Your Senses: A Visual Feast of Chai Moments Captured in Our
+          Gallery!
         </p>
         <div className="columns-1 gap-5 lg:gap-3 sm:columns-2 lg:columns-3 xl:columns-4">
           {images?.map((item) => {

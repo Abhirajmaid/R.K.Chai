@@ -6,8 +6,8 @@ const OurNetwork = () => {
     <div className="flex items-center justify-center flex-col gap-5 md:mt-[170px] mt-[100px]">
       <h1 className="sec-head">Our Network</h1>
       <p className="-mt-[15px] mb-5 md:w-[30%] text-center">
-        Lorem ipsum dolor sit amet consectetur. Diam pharetra tellus sed nulla
-        augue. Ornare
+        Unite with Pune's Chai Connoisseurs: Embracing the Tradition, One Cup at
+        a Time
       </p>
       <div className="flex items-center md:gap-[70px] gap-4">
         <div className="flex flex-col justify-center items-center">
