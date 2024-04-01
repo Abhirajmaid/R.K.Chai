@@ -2,20 +2,24 @@ import React from "react";
 
 const FeaturesData = [
   {
-    head: "AWESOME AROMA",
-    sub_head: "Lorem ipsum dolor sit amet consectetur. Hendrerit mi nec ",
+    head: "Unique and Delicious flavors",
+    sub_head:
+      "RK Chai may offer unique and delicious flavors of chai that are not found elsewhere.",
   },
   {
-    head: "HIGH QUALITY",
-    sub_head: "Lorem ipsum dolor sit amet consectetur. Hendrerit mi nec ",
+    head: "High-quality Ingredients",
+    sub_head:
+      "High-quality ingredients, such as fresh spices and loose-leaf tea, to create a superior cup of chai.",
   },
   {
-    head: "AWESOME AROMA",
-    sub_head: "Lorem ipsum dolor sit amet consectetur. Hendrerit mi nec ",
+    head: "Wide Variety of Flavors",
+    sub_head:
+      "From classic masala chai to innovative blends, RKChaiwala provides a diverse range of chai options to cater to different tastes and preferences.",
   },
   {
-    head: "FLAVOUR FULL",
-    sub_head: "Lorem ipsum dolor sit amet consectetur. Hendrerit mi nec ",
+    head: "Community",
+    sub_head:
+      "RKChaiwala celebrates chai not just as a beverage but as a tradition that brings people together.",
   },
 ];
 

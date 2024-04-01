@@ -19,16 +19,19 @@ const AboutSec = () => {
       <div className="flex flex-col gap-7 md:w-[50%] w-full ">
         <h1 className="sec-head md:text-left text-center">About R.K's</h1>
         <p className="-mt-[15px] text-justify w-[90%] mx-auto md:mx-0">
-          Lorem ipsum dolor sit amet consectetur. Diam pharetra tellus sed nulla
-          augue. Ornare nisl eget molestie malesuada. Sem vel adipiscing
-          adipiscing donec facilisi adipiscing at. Posuere nibh pellentesque
-          praesent tortor nulla enim et faucibus porta.
+          RKChaiwala is your one-stop shop for all things chai. We offer a wide
+          variety of chai products, from classic masala chai to more unique
+          flavors like lavender chai and rose chai. We use only the highest
+          quality ingredients to create our chai, and we are committed to
+          providing our customers with the most delicious and authentic chai
+          experience possible.
           <br />
           <br />
-          Lorem ipsum dolor sit amet consectetur. Diam pharetra tellus sed nulla
-          augue. Ornare nisl eget molestie malesuada. Sem vel adipiscing
-          adipiscing donec facilisi adipiscing at. Posuere nibh pellentesque
-          praesent tortor nulla enim et faucibus porta.
+          With over 30,000 loyal customers, RKChaiwala is a trusted name in
+          chai. We are passionate about chai and believe that it is more than
+          just a drink; it is a tradition that brings people together. In
+          addition to our delicious chai, we also offer franchise opportunities
+          for those who want to share their love of chai with others.
         </p>
         <Link href="/about-us">
           <button className="primary-btn flex items-center gap-2">
