@@ -1,6 +1,12 @@
 import { ImageCard } from "@src/components/common";
 import React, { Suspense } from "react";
 
+export const metadata = {
+  title: "Gallery",
+  description:
+    "Discover chai moments captured beautifully in our gallery page, where each image shares the essence of our flavorful tradition.",
+};
+
 const images = [
   {
     text: "Lorem ipsum dolor sit amet consectetur",

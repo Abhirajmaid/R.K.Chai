@@ -2,6 +2,12 @@ import { Banner, ProductCard } from "@src/components/common";
 import { ProductsData } from "@src/data/data";
 import React from "react";
 
+export const metadata = {
+  title: "Products Range",
+  description:
+    "Explore our diverse range of chai blends, meticulously crafted to delight your senses with every sip.",
+};
+
 const page = () => {
   return (
     <>

@@ -2,6 +2,12 @@ import { BlogCard } from "@src/components/common";
 import { BlogsData } from "@src/data/data";
 import React from "react";
 
+export const metadata = {
+  title: "Blogs",
+  description:
+    "Dive into our blog for insightful articles, recipes, and inspiration, all centered around the world of chai. Explore the rich tapestry of chai culture and join our community of enthusiasts.",
+};
+
 const page = () => {
   return (
     <div className="flex flex-col p-[6%] bg-light_bg mt-[80px]">

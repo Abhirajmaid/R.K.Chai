@@ -1,35 +1,41 @@
-"use client";
 import { Kanit } from "next/font/google";
 import "./globals.css";
-import { useState } from "react";
-import { Footer, LoadingScreen, Navbar } from "@src/components/common";
-import { motion } from "framer-motion";
 
 const kanit = Kanit({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
+export const metadata = {
+  metadataBase: new URL("https://r-k-chai.vercel.app/"),
+  title: {
+    default: "RKChaiwala",
+    template: "%s | RK Chaiwala",
+  },
+  description:
+    "RK Chaiwala offers authentic Indian chai experiences, blending tradition with innovation. Join our chai community and savor the rich flavors of India in every cup",
+  twitter: {
+    card: "summary_large_image",
+    site: "@rkchai",
+  },
+  openGraph: {
+    title: "RK Chaiwala",
+    description:
+      "RK Chaiwala offers authentic Indian chai experiences, blending tradition with innovation. Join our chai community and savor the rich flavors of India in every cup",
+    images: [
+      {
+        url: "./opengraph-image.png",
+      },
+    ],
+  },
+  keywords: ["chai", "RK chaiwala", "rkchaiwala", "chai cafe"],
+};
+
 export default function RootLayout({ children }) {
-  const [loading, setLoading] = useState(true);
   return (
     <>
       <html lang="en">
-        <body className={kanit.className}>
-          {loading ? (
-            <LoadingScreen setLoading={setLoading} />
-          ) : (
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ ease: "easeInOut", duration: 1 }}
-            >
-              <Navbar />
-              {children}
-              <Footer />
-            </motion.div>
-          )}
-        </body>
+        <body className={kanit.className}>{children}</body>
       </html>
     </>
   );

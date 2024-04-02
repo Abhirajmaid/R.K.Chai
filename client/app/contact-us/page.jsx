@@ -2,6 +2,12 @@ import { InfiniteMarquee } from "@src/components/common";
 import Image from "next/image";
 import React from "react";
 
+export const metadata = {
+  title: "Contact Us",
+  description:
+    "Got questions or feedback? Reach out to us! Our team is here to assist you.",
+};
+
 const page = () => {
   return (
     <>
