@@ -1,33 +1,33 @@
 export const ProductsData = [
     {
-        name: "Regular Tea",
+        name: "Regular Masal Tea",
         special: true,
-        product_image: "/images/cup.png",
+        product_image: "/images/products/1.png",
     },
     {
-        name: "Regular Tea",
+        name: "Black Tea",
         special: true,
-        product_image: "/images/cup.png",
+        product_image: "/images/products/blacktea.png",
     },
     {
-        name: "Regular Tea",
+        name: "Lemon Tea",
         special: false,
-        product_image: "/images/cup.png",
+        product_image: "/images/products/lemontea.png",
     },
     {
-        name: "Regular Tea",
+        name: "Ginger Tea",
         special: false,
-        product_image: "/images/cup.png",
+        product_image: "/images/products/gingertea.png",
     },
     {
-        name: "Regular Tea",
+        name: "Coffee",
         special: true,
-        product_image: "/images/cup.png",
+        product_image: "/images/products/coffee.png",
     },
     {
-        name: "Regular Tea",
+        name: "Cream Roll",
         special: false,
-        product_image: "/images/cup.png",
+        product_image: "/images/products/creamroll.png",
     },
 ]
 

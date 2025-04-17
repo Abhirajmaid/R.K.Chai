@@ -12,7 +12,7 @@ const ProductCard = ({ name, product_image, special }) => {
         width={1000}
         height={1000}
         alt="rkchai"
-        className="absolute w-[450px] h-auto top-[50px] group-hover:scale-[1.07] transition-a "
+        className="absolute w-[450px] h-auto bottom-[20%] group-hover:scale-[1.07] transition-a "
       />
       <h2 className="font-semibold text-[40px] text-center">{name}</h2>
       {special ? (
